@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    height: 92vh;
+}
+
+.sub {
+    margin-bottom: 300px;
+}
+
+.judul {
+    margin-bottom: 260px;
+}

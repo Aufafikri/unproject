@@ -1,0 +1,32 @@
+.gambar {
+    height: 250px;
+}
+
+.title {
+    margin-left: 100px;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 70px;
+}
+
+.card2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+@media screen and (max-width: 430px) {
+    .card {
+        margin: 30px auto;
+    }
+
+    .card2 {
+        position: relative;
+        left: 0px;
+    }
+}

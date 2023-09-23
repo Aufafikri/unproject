@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --h4-text: 20px;
+    --span-size: 30px;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    border-bottom: 4px solid black;
+    display: inline;
+    justify-content: center;
+}
+
+.main-content img {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: 0px 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+.whatsapp h4 {
+    font-size: var(--h4-text);
+    margin-left: 400px;
+    margin-top: -230px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.whatsapp a {
+    text-decoration: none;
+    color: #000;
+}
+
+.whatsapp a:hover {
+    color: #cc2c2c;
+    transition: 0.3s;
+}
+
+.whatsapp span {
+    color: green;
+    font-size: var(--span-size);
+    margin-right: 5px;
+}
+
+.instagram {
+    margin-left: 400px;
+}
+
+.instagram h4 {
+    font-size: var(--h4-text);
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.instagram a {
+    text-decoration: none;
+}
+
+.instagram span {
+    font-size: var(--span-size);
+    color: hotpink;
+    margin-right: 5px;
+}
+
+.facebook {
+    margin-left: 403px;
+}
+
+.facebook h4 {
+    font-size: var(--h4-text);
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.facebook a {
+    text-decoration: none;
+}
+
+.facebook span {
+    font-size: 25px;
+    color: blue;
+    margin-right: 5px;
+}
+
+.gmail {
+    margin-left: 403px;
+}
+
+.gmail h4 {
+    font-size: var(--h4-text);
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.gmail a {
+    text-decoration: none;
+}
+
+.gmail span {
+    font-size: 25px;
+    color: #cc2c2c;
+    margin-right: 5px;
+}
+
+.github {
+    margin-left: 400px;
+}
+
+.github a {
+    text-decoration: none;
+}
+
+.github h4 {
+    font-size: var(--h4-text);
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.github span {
+    font-size: var(--span-size);
+    color: #000;
+    margin-right: 5px;
+}
+
+.school {
+    margin-left: 680px;
+    margin-top: -220px;
+}
+
+.school span {
+    font-size: var(--span-size);
+    margin-right: 5px;
+}
+
+.school h3 {
+    font-size: var(--h4-text);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.school li {
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.me {
+    color: #1ec773;
+}
+
+@media screen and (max-width: 400px) {
+    .main-content img {
+        margin-left: 70px;
+    }
+
+    .main-content .medsos {
+        margin-top: 20px;
+    }
+
+    .main-content .whatsapp h4 {
+        margin: 0px auto;
+        margin-left: 90px;
+    }
+
+    .main-content .instagram {
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .main-content .facebook {
+        margin: 0;
+        margin-top: -43px;
+        margin-left: 220px;
+    }
+
+    .main-content .gmail {
+        margin: 0;
+        margin-left: 42px;
+    }
+
+    .main-content .github {
+        margin: 0;
+        margin-top: -43px;
+        margin-left: 218px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main-content img {
+        margin-left: 60px;
+    }
+}

@@ -1,0 +1,47 @@
+:root {
+    --width-image: 350px;
+    --height-image: 300px;
+    --font-size: 20px;
+}
+
+.bg {
+    background-image: url('../../Assets/HobiesBg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.hobies1 {
+    width: var(--width-image);
+    height: var(--height-image);
+}
+
+.text-one {
+    margin-left: 100px;
+    font-size: var(--font-size);
+    color: #fff;
+    font-weight: bold;
+}
+
+.hobies2 {
+    width: var(--width-image);
+    height: var(--height-image);
+}
+
+.text-two {
+    margin-left: 120px;
+    font-size: var(--font-size);
+    color: #fff;
+    font-weight: bold;
+}
+
+.hobies3 {
+    width: var(--width-image);
+    height: var(--height-image);
+}
+
+.text-three {
+    margin-left: 120px;
+    font-size: var(--font-size);
+    color: #fff;
+    font-weight: bold;
+}
